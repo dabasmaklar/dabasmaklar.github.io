@@ -137,7 +137,7 @@ body {
     font-size: 0.5rem;
     margin-top: 1rem; }
   body .devider {
-    background-image: url("../img/fasaani.JPG");
+    background-image: url("../src/img/fasaani.JPG");
     height: 10rem;
     background-attachment: fixed;
     background-size: cover; }
