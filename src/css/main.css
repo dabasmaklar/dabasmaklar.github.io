@@ -29,21 +29,12 @@ body {
     background-color: #bcc5be; }
   body .main__section-six {
     background: linear-gradient(90deg, rgba(126, 195, 166, 0.908001) 1%, #9598ba 100%, #1e0122 100%, #65446e 100%); }
-  body .main__section-seven {
-    background-color: #bcc5be; }
-  body .main__section-eight {
-    background: linear-gradient(90deg, rgba(126, 195, 166, 0.908001) 1%, #9598ba 100%, #1e0122 100%, #65446e 100%); }
-  body .main__section-nine {
-    background-color: #bcc5be; }
   body .main__section-one__content,
   body .main__section-two__content,
   body .main__section-two__content-b,
   body .main__section-three__content,
   body .main__section-five__content,
-  body .main__section-six__content,
-  body .main__section-seven__content,
-  body .main__section-eight__content,
-  body .main__section-nine__content {
+  body .main__section-six__content {
     display: flex;
     flex-direction: column;
     justify-content: center; }
@@ -69,10 +60,7 @@ body {
   body .main__section-two-b__content__title,
   body .main__section-three__content__title,
   body .main__section-five__content__title,
-  body .main__section-six__content__title,
-  body .main__section-seven__content__title,
-  body .main__section-eight__content__title,
-  body .main__section-nine__content__title {
+  body .main__section-six__content__title {
     font-family: "IM Fell French Canon SC", serif; }
   body .main__section-one__content__title {
     margin-top: 2rem; }
@@ -85,9 +73,6 @@ body {
   body .main__section-four__content__text-container-text,
   body .main__section-five__content__text-container-text,
   body .main__section-six__content__text-container-text,
-  body .main__section-seven__content__text-container-text,
-  body .main__section-eight__content__text-container-text,
-  body .main__section-nine__content__text-container-text,
   body .main__section-ten__content__text-container-text {
     font-family: "Trocchi", serif; }
   body .main__section-four__content__text-container-text,
@@ -101,20 +86,14 @@ body {
   body .main__section-two-b__picture,
   body .main__section-three__picture,
   body .main__section-five__picture,
-  body .main__section-six__picture,
-  body .main__section-seven__picture,
-  body .main__section-eight__picture,
-  body .main__section-nine__picture {
+  body .main__section-six__picture {
     max-width: 50%; }
   body .main__section-one__picture,
   body .main__section-two__picture,
   body .main__section-two-b__picture,
   body .main__section-three__picture,
   body .main__section-five__picture,
-  body .main__section-six__picture,
-  body .main__section-seven__picture,
-  body .main__section-eight__picture,
-  body .main__section-nine__picture {
+  body .main__section-six__picture {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,10 +106,7 @@ body {
   body .main__section-two-b__picture__image,
   body .main__section-three__picture__image,
   body .main__section-five__picture__image,
-  body .main__section-six__picture__image,
-  body .main__section-seven__picture__image,
-  body .main__section-eight__picture__image,
-  body .main__section-nine__picture__image {
+  body .main__section-six__picture__image {
     max-width: 75%;
     border: 0.7px grey solid;
     margin: 3rem;
@@ -200,9 +176,6 @@ body {
   .main__section-four,
   .main__section-five,
   .main__section-six,
-  .main__section-seven,
-  .main__section-eight,
-  .main__section-nine,
   .main__section-ten {
     display: flex;
     flex-direction: column;
@@ -215,10 +188,7 @@ body {
   .main__section-two-b__content,
   .main__section-three__content,
   .main__section-five__content,
-  .main__section-six__content,
-  .main__section-seven__content,
-  .main__section-eight__content,
-  .main__section-nine__content {
+  .main__section-six__content {
     width: 90%; }
   .main__section-one__content__title,
   .main__section-two__content__title,
@@ -226,9 +196,6 @@ body {
   .main__section-three__content__title,
   .main__section-five__content__title,
   .main__section-six__content__title,
-  .main__section-seven__content__title,
-  .main__section-eight__content__title,
-  .main__section-nine__content__title,
   .main__section-ten__content__title {
     font-size: 1rem; }
   .main__section-one__picture__profile-pic,
@@ -236,10 +203,7 @@ body {
   .main__section-two-b__picture__image,
   .main__section-three__picture__image,
   .main__section-five__picture__image,
-  .main__section-six__picture__image,
-  .main__section-seven__picture__image,
-  .main__section-eight__picture__image,
-  .main__section-nine__picture__image {
+  .main__section-six__picture__image {
     width: 90%;
     margin: 3rem; }
   .main__section-two-b__content__text-container {
@@ -253,9 +217,6 @@ body {
   .main__section-four__content__text-container-text,
   .main__section-five__content__text-container-text,
   .main__section-six__content__text-container-text,
-  .main__section-seven__content__text-container-text,
-  .main__section-eight__content__text-container-text,
-  .main__section-nine__content__text-container-text,
   .main__section-ten__content__text-container-text {
     font-size: 0.5rem; }
   .links {
@@ -286,9 +247,6 @@ body {
   .main__section-four,
   .main__section-five,
   .main__section-six,
-  .main__section-seven,
-  .main__section-eight,
-  .main__section-nine,
   .main__section-ten {
     display: flex;
     flex-direction: row; }
@@ -297,10 +255,7 @@ body {
   .main__section-two-b__content,
   .main__section-three__content,
   .main__section-five__content,
-  .main__section-six__content,
-  .main__section-seven__content,
-  .main__section-eight__content,
-  .main__section-nine__content {
+  .main__section-six__content {
     width: 50%;
     margin-left: 2rem; }
   .main__section-ten__content {
@@ -313,10 +268,7 @@ body {
   .main__section-two-b__picture__profile-pic,
   .main__section-three__picture__profile-pic,
   .main__section-five__picture__profile-pic,
-  .main__section-six__picture__profile-pic,
-  .main__section-seven__picture__profile-pic,
-  .main__section-eight__picture__profile-pic,
-  .main__section-nine__picture__profile-pic {
+  .main__section-six__picture__profile-pic {
     width: 70%; }
   .main__section-one__content__text-container-text {
     font-size: 75%; }
@@ -345,9 +297,6 @@ body {
   .main__section-four,
   .main__section-five,
   .main__section-six,
-  .main__section-seven,
-  .main__section-eight,
-  .main__section-nine,
   .main__section-ten {
     display: flex;
     flex-direction: row; }
@@ -356,10 +305,7 @@ body {
   .main__section-two-b__content,
   .main__section-three__content,
   .main__section-five__content,
-  .main__section-six__content,
-  .main__section-seven__content,
-  .main__section-eight__content,
-  .main__section-nine__content {
+  .main__section-six__content {
     width: 50%;
     margin-left: 2rem; }
   .main__section-ten__content {

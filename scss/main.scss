@@ -61,27 +61,12 @@ body {
 		background: $secondary-color;
 	}
 
-	.main__section-seven {
-		background-color: $primary-color;
-	}
-
-	.main__section-eight {
-		background: $secondary-color;
-	}
-
-	.main__section-nine {
-		background-color: $primary-color;
-	}
-
 	.main__section-one__content,
 	.main__section-two__content,
 	.main__section-two__content-b,
 	.main__section-three__content,
 	.main__section-five__content,
-	.main__section-six__content,
-	.main__section-seven__content,
-	.main__section-eight__content,
-	.main__section-nine__content {
+	.main__section-six__content {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -117,10 +102,7 @@ body {
 	.main__section-two-b__content__title,
 	.main__section-three__content__title,
 	.main__section-five__content__title,
-	.main__section-six__content__title,
-	.main__section-seven__content__title,
-	.main__section-eight__content__title,
-	.main__section-nine__content__title {
+	.main__section-six__content__title {
 		font-family: $im-fell;
 	}
 
@@ -139,9 +121,6 @@ body {
 	.main__section-four__content__text-container-text,
 	.main__section-five__content__text-container-text,
 	.main__section-six__content__text-container-text,
-	.main__section-seven__content__text-container-text,
-	.main__section-eight__content__text-container-text,
-	.main__section-nine__content__text-container-text,
 	.main__section-ten__content__text-container-text {
 		font-family: $p;
 	}
@@ -159,10 +138,7 @@ body {
 	.main__section-two-b__picture,
 	.main__section-three__picture,
 	.main__section-five__picture,
-	.main__section-six__picture,
-	.main__section-seven__picture,
-	.main__section-eight__picture,
-	.main__section-nine__picture {
+	.main__section-six__picture {
 		max-width: 50%;
 	}
 
@@ -171,10 +147,7 @@ body {
 	.main__section-two-b__picture,
 	.main__section-three__picture,
 	.main__section-five__picture,
-	.main__section-six__picture,
-	.main__section-seven__picture,
-	.main__section-eight__picture,
-	.main__section-nine__picture {
+	.main__section-six__picture {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -191,10 +164,7 @@ body {
 	.main__section-two-b__picture__image,
 	.main__section-three__picture__image,
 	.main__section-five__picture__image,
-	.main__section-six__picture__image,
-	.main__section-seven__picture__image,
-	.main__section-eight__picture__image,
-	.main__section-nine__picture__image {
+	.main__section-six__picture__image {
 		max-width: 75%;
 		border: 0.7px grey solid;
 		margin: 3rem;
