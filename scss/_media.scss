@@ -23,6 +23,11 @@
 		align-items: center;
 	}
 
+	.main__section-ten__content {
+		flex-direction: column;
+		justify-content: center;
+	}
+
 	.main__section-one__content,
 	.main__section-two__content,
 	.main__section-two-b__content,
@@ -43,7 +48,8 @@
 	.main__section-six__content__title,
 	.main__section-seven__content__title,
 	.main__section-eight__content__title,
-	.main__section-nine__content__title {
+	.main__section-nine__content__title,
+	.main__section-ten__content__title {
 		font-size: 1rem;
 	}
 
@@ -89,6 +95,15 @@
 
 	.button {
 		width: 8rem;
+	}
+
+	.link-icon {
+		width: 20px;
+		height: 20px;
+	}
+
+	.devider {
+		background-position: center;
 	}
 }
 
@@ -136,6 +151,11 @@
 		margin-left: 2rem;
 	}
 
+	.main__section-ten__content {
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+
 	.main__section-one__content__title {
 		font-size: 1.5rem;
 	}
@@ -165,6 +185,10 @@
 
 	.button {
 		width: 13rem;
+	}
+
+	.devider {
+		background-position: center;
 	}
 }
 
@@ -210,6 +234,11 @@
 	.main__section-nine__content {
 		width: 50%;
 		margin-left: 2rem;
+	}
+
+	.main__section-ten__content {
+		flex-direction: row;
+		justify-content: space-evenly;
 	}
 
 	.main__section-one__content__title {
